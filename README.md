@@ -6,5 +6,6 @@ Headers
 Paragraphs 
 Bold/Italics 
 Lists 
+Images
 
 This will also be my first project using HTML.
