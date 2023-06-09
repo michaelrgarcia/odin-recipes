@@ -1,8 +1,5 @@
 * {
     font-family: Georgia, "Trebuchet MS", "Tahoma", sans-serif;
-}
-
-body {
     background-color:rgb(205, 197, 197);
 }
 
@@ -14,6 +11,10 @@ a {
     color:rgb(50,50,50);
 }
 
+.home-heading {
+    text-align: center;
+}
+
 .odin-logo {
     height: auto;
     width: 400px;
@@ -21,3 +22,13 @@ a {
     margin-left: auto;
     margin-right: auto;
 }
+
+.home-links {
+    text-align:center;
+}
+
+.home-links-list {
+    display: inline-block;
+    text-align: left;
+}
+
