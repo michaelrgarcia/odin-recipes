@@ -1,14 +1,30 @@
 * {
     font-family: Georgia, "Trebuchet MS", "Tahoma", sans-serif;
-    background-color:rgb(205, 197, 197);
+}
+
+body {
+    background-color: white;
+}
+
+.wrapper {
+    border: 5px double rgb(227,179,103);
+    border-radius: 1%;
+    margin: 150px;
+    background-color: rgb(231,231,231);
+}
+
+.wrapper .content {
+    background-color: rgb(231,231,231);
 }
 
 h1 {
     color:rgb(167,130,75);
+    font-size: xx-large;
 }
 
 a {
     color:rgb(50,50,50);
+    font-size: x-large;
 }
 
 .home-heading {
@@ -21,6 +37,7 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background-color:rgb(231,231,231);
 }
 
 .home-links {
