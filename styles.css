@@ -1,5 +1,6 @@
 * {
     font-family: Georgia, "Trebuchet MS", "Tahoma", sans-serif;
+    line-height: 1.5;
 }
 
 body {
@@ -10,17 +11,17 @@ body {
     border: 5px double rgb(227,179,103);
     border-radius: 1%;
     margin: 150px;
-    background-color: rgb(231,231,231);
+    background-color: rgb(227,179,103);
 }
 
 .wrapper .content {
-    background-color: rgb(231,231,231);
+    background-color: rgb(238,218,197);
+    border-radius: 2%;
 }
 
-h1 {
-    color:rgb(167,130,75);
-    font-size: xx-large;
-}
+.wrapper.recipe {
+    margin:5px
+}  
 
 a {
     color:rgb(50,50,50);
@@ -49,3 +50,19 @@ a {
     text-align: left;
 }
 
+h2 {
+    text-decoration: underline;
+}
+
+h3 {
+    text-decoration: overline;
+}
+
+h4 {
+    text-decoration: overline;
+}
+
+.recipeimg {
+    height: auto;
+    width: 500px;
+}
