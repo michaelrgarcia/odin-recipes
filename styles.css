@@ -1,68 +1,55 @@
 * {
     font-family: Georgia, "Trebuchet MS", "Tahoma", sans-serif;
     line-height: 1.5;
+    box-sizing: border-box;
 }
 
-body {
-    background-color: white;
-}
-
-.wrapper {
-    border: 5px double rgb(227,179,103);
-    border-radius: 1%;
-    margin: 150px;
-    background-color: rgb(227,179,103);
-}
-
-.wrapper .content {
-    background-color: rgb(238,218,197);
-    border-radius: 2%;
-}
-
-.wrapper.recipe {
-    margin:5px
-}  
-
-a {
-    color:rgb(50,50,50);
-    font-size: x-large;
-}
-
-.home-heading {
-    text-align: center;
-}
-
-.odin-logo {
-    height: auto;
-    width: 400px;
-    display: block;
+.wrapper  {
+    height: 1000px;
+    width: 800px;
     margin-left: auto;
     margin-right: auto;
-    background-color:rgb(231,231,231);
+    text-align: center;
+    margin-top: 0;
 }
 
-.home-links {
-    text-align:center;
-}
-
-.home-links-list {
+.wrapper li {
+    list-style: none;
     display: inline-block;
-    text-align: left;
 }
 
-h2 {
-    text-decoration: underline;
-}
-
-h3 {
-    text-decoration: overline;
-}
-
-h4 {
-    text-decoration: overline;
-}
-
-.recipeimg {
+.wrapper img {
+    display: inline-block;
     height: auto;
-    width: 500px;
+    width: 100px;
+    margin-top: 0px;
+    margin-right: 270px;
+    margin-bottom: -80px;
+    padding:20px;
 }
+
+.wrapper h1 {
+    margin-top: 0;
+}
+
+.recipe-card {
+    display: block;
+    height: auto;
+    width: 400px;
+    margin-bottom: 100px;
+    margin-left: -80px;
+}
+
+.recipe-card .recipe-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(186, 127, 17);
+}
+
+.recipe-card a img {
+    display: inline-block;
+    height: auto;
+    width: 400px;
+}
+
