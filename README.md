@@ -9,4 +9,4 @@ Images,
 
 This will also be my first project using HTML.
 
-You can find it here: https://leavesturninsideyou.github.io/odin-recipes/
+You can find it here: https://michaelrgarcia.github.io/odin-recipes/
